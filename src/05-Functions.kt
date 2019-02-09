@@ -18,10 +18,8 @@ fun main(args: Array<String>) {
 
 
     fun dogInfo(name: String, age: Int) {
-        print(name)
-        print(" is ")
-        print(age)
-        println(" years old :)")
+        // string interpolation
+        println("$name is $age years old :)")
     }
 
     dogInfo("Fido", 8)
